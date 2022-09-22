@@ -1,0 +1,18 @@
+{
+  "name": "CustomerValidationApi-Synthetics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@agl/newrelicsynthmanager": "^1.0.34"
+  }
+}

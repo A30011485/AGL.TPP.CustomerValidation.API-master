@@ -1,0 +1,89 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0100000031",
+    "vendorName": "FC",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Sale",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel",
+    "dateOfSale": "2019-07-16"
+  },
+  "payload": {
+    "businessDetail": {
+      "name": "string"
+    },
+    "authorisedContactPersonDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middle",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "authorisedPersonContact": {
+      "emailAddress": "sam.sample@nothing.com",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "1400111000"
+    },
+    "siteAddress": {
+      "buildingName": "string",
+      "floorNumber": "4",
+      "lotNumber": "string",
+      "unitNumber": "12",
+      "streetNumber": "105",
+      "streetName": "Collins St",
+      "suburb": "Sampleville",
+      "state": "NSW",
+      "postcode": "3000"
+    },
+    "mailingAddress": {
+      "streetAddress": {
+        "buildingName": "string",
+        "floorNumber": "4",
+        "lotNumber": "string",
+        "unitNumber": "12",
+        "postOfficeBoxNumber": "10",
+        "streetNumber": "105",
+        "streetName": "Collins St",
+        "suburb": "Sampleville",
+        "state": "NSW",
+        "postcode": "3000"
+      }
+    },
+    "businessIdentification": {
+      "abn": "01234567891",
+      "acn": "123456789"
+    },
+    "customerConsent": {
+      "hasGivenCreditCheckConsent": "N",
+      "hasGivenEBillingConsent": "N"
+    },
+    "siteMeterDetail": {
+      "electricity": {
+        "nmi": "string"
+      },
+      "gas": {
+        "mirn": "string"
+      }
+    },
+    "moveDetail": {
+      "moveIn": {
+        "electricity": {
+          "date": "2019-08-23"
+        },
+        "gas": {
+          "date": "2019-08-23"
+        }
+      },
+      "moveOut": {
+        "electricity": {
+          "date": "2019-08-23"
+        },
+        "gas": {
+          "date": "2019-08-23"
+        }
+      }
+    }
+  }
+}

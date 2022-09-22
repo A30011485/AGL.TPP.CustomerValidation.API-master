@@ -1,0 +1,67 @@
+{
+  "type": "SCRIPT_API",
+  "name": "CustomerValidationApi",
+  "frequency": "10",
+  "filepath": ".\\synthetics\\CustomerValidationApi.js",
+  "location": "AWS_AP_SOUTHEAST_2",
+  "labels": "",
+  "removelabels": "",
+  "alerts": "",
+  "removealerts": "",
+  "envs": [
+    {
+      "name": "dev",
+      "variables": [
+        {
+          "name": "Env",
+          "value": "dev"
+        }
+      ]
+    },
+    {
+      "name": "qtrtest",
+      "variables": [
+        {
+          "name": "Env",
+          "value": "qtrtest"
+        }
+      ]
+    },
+    {
+      "name": "qtruat",
+      "variables": [
+        {
+          "name": "Env",
+          "value": "qtruat"
+        }
+      ]
+    },
+    {
+      "name": "bautest",
+      "variables": [
+        {
+          "name": "Env",
+          "value": "bautest"
+        }
+      ]
+    },
+    {
+      "name": "bauuat",
+      "variables": [
+        {
+          "name": "Env",
+          "value": "bauuat"
+        }
+      ]
+    },
+    {
+      "name": "prod",
+      "variables": [
+        {
+          "name": "Env",
+          "value": "prod"
+        }
+      ]
+    }
+  ]
+}

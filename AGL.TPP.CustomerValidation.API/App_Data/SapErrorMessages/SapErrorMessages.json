@@ -1,0 +1,954 @@
+[
+  {
+    "code": 0,
+    "apiCode": 1000,
+    "field": "",
+    "message": "Validation is successful.",
+    "class": null,
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 0,
+    "apiCode": 1001,
+    "field": "Product ID",
+    "message": "Please provide a Product ID",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 0,
+    "apiCode": 1002,
+    "field": "Supply Address",
+    "message": "Please provide valid supply address.",
+    "class": "ZCSS_WEBREQ_ADDRESS",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 1,
+    "apiCode": 1003,
+    "field": "NMI/MIRN",
+    "message": "Please provide a valid NMI/MIRN including checksum. Must be 11 digits.",
+    "class": "ZCSS_WEBREQ_TMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 1,
+    "apiCode": 1004,
+    "field": "Supply Address",
+    "message": "Please provide valid supply address.",
+    "class": "ZCSS_WEBREQ_ADDRESS",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 2,
+    "apiCode": 1005,
+    "field": "NMI/MIRN",
+    "message": "NMI/MIRN checksum is invalid. Please check and resubmit.",
+    "class": "ZCSS_WEBREQ_TMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 2,
+    "apiCode": 1006,
+    "field": "Product ID",
+    "message": "Product ID &1 is invalid.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 2,
+    "apiCode": 1007,
+    "field": "Postcode",
+    "message": "Sorry, AGL is unable to service your area. Please contact ActewAGL.",
+    "class": "ZCSS_WEBREQ_ADDRESS",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 3,
+    "apiCode": 1008,
+    "field": "Product ID",
+    "message": "Product ID does not match the fuel type selected: &2.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 4,
+    "apiCode": 1009,
+    "field": "Business Partner",
+    "message": "Commercial customer identified, please contact AGL directly.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 4,
+    "apiCode": 1010,
+    "field": "Campaign ID",
+    "message": "Please provide the Campaign ID.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 5,
+    "apiCode": 1011,
+    "field": "",
+    "message": "Please provide valid Vendor (Name and/or BP Number).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 5,
+    "apiCode": 1012,
+    "field": "Campaign ID",
+    "message": "The Campaign ID &1 is invalid. Contact the administrator.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 5,
+    "apiCode": 1013,
+    "field": "Site Address",
+    "message": "Please provide Site Address without invalid special characters.",
+    "class": "ZCSS_WEBREQ_ADDRESS",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 6,
+    "apiCode": 1014,
+    "field": "Date of Birth",
+    "message": "Please provide a Date of Birth (YYYY-MM-DD). You must be over 18 years of age.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 6,
+    "apiCode": 1015,
+    "field": "BP Kind",
+    "message": "This site is part of a multi-site agreement. Please contact AGL directly to complete this transaction.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 6,
+    "apiCode": 1016,
+    "field": "Campaign",
+    "message": "Sorry, the Campaign selected will expire prior to your contract start date.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 6,
+    "apiCode": 1017,
+    "field": "Postcode",
+    "message": "Please provide valid postcode.",
+    "class": "ZCSS_WEBREQ_ADDRESS",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 7,
+    "apiCode": 1018,
+    "field": "",
+    "message": "Unfortunately, you did not meet AGL's application criteria for &12. We are unable to proceed with the AGL &12 application.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 7,
+    "apiCode": 1019,
+    "field": "augrp",
+    "message": "This site is commercial and industrial. Please contact AGL directly to complete this transaction.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 7,
+    "apiCode": 1020,
+    "field": "Campaign Rejected",
+    "message": "Campaign ID &1 is no longer active.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 8,
+    "apiCode": 1021,
+    "field": "",
+    "message": "One of Vendor Name, Vendor Code or Lead ID missing. Please provide required values.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 8,
+    "apiCode": 1022,
+    "field": "Campaign",
+    "message": "Sorry, the Product ID &2 is not available in Campaign ID &1",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 9,
+    "apiCode": 1023,
+    "field": "Start Date",
+    "message": "Please select valid contract start date for &2. This must be a business day.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 10,
+    "apiCode": 1024,
+    "field": "Mobile Phone",
+    "message": "Please provide valid Mobile phone number between 10 and 11 digits.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 10,
+    "apiCode": 1025,
+    "field": "Movein Date",
+    "message": "For Move In, please provide a move in date for &1 in format YYYY-MM-DD. For Product Change, AGL cannot find exact customer match, please verify the details.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 11,
+    "apiCode": 1026,
+    "field": "",
+    "message": "You have passed the cut-off time for a same day connection. Please resubmit as SDFI for next business day.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 11,
+    "apiCode": 1027,
+    "field": "Telephone Number",
+    "message": "Please provide valid Phone number including the area code.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 11,
+    "apiCode": 1028,
+    "field": "Movein Date",
+    "message": "Move in date for &1 should not be more than 65 days from current date, please provide valid move in date.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 12,
+    "apiCode": 1029,
+    "field": "Email Address",
+    "message": "Invalid email received '&1'. Please provide valid email address.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 12,
+    "apiCode": 1030,
+    "field": "Contract Date",
+    "message": "Move in date for &1 is in the past. Please select a future business day.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 13,
+    "apiCode": 1031,
+    "field": "Vendor Lead ID",
+    "message": "This Lead ID has been previously submitted. Please submit a new Lead ID.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 13,
+    "apiCode": 1032,
+    "field": "NMI",
+    "message": "The NMI or MIRN you have provided does not correspond to the fuel requested.",
+    "class": "ZCSS_WEBREQ_TMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 13,
+    "apiCode": 1033,
+    "field": "Movein Date",
+    "message": "Move in date for &1 provided is not a business day. Please select a business day.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 14,
+    "apiCode": 1034,
+    "field": "Life Support Site Indicator",
+    "message": "&1 Life Support cannot be requested where move in date for &1 is missing.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 14,
+    "apiCode": 1035,
+    "field": "",
+    "message": "Unknown",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 14,
+    "apiCode": 1036,
+    "field": "POD Rejection",
+    "message": "AGL cannot currently service the NMI/MIRN provided due to its status. Please contact AGL.",
+    "class": "ZCSS_WEBREQ_TMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 14,
+    "apiCode": 1037,
+    "field": "",
+    "message": "Contract start date for Gas needs to be after &1.",
+    "class": "ZCSS_WEBREQ_QC",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 15,
+    "apiCode": 1038,
+    "field": "Concession Card",
+    "message": "Please provide valid Concession Card (Type/Number).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 15,
+    "apiCode": 1039,
+    "field": "Customer Details",
+    "message": "Special characters are not accepted. Please provide a valid &1.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 16,
+    "apiCode": 1040,
+    "field": "Customer Details",
+    "message": "Please provide valid &1 'and' is not accepted.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 17,
+    "apiCode": 1041,
+    "field": "Site Address",
+    "message": "Please provide one of the following to validate the address: house number, NMI or MIRN.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 17,
+    "apiCode": 1042,
+    "field": "Concession Card",
+    "message": "Customer mismatch found. Please provide valid Concession Card details.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 18,
+    "apiCode": 1043,
+    "field": "Contact Details",
+    "message": "Please provide at least one contact number.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 18,
+    "apiCode": 1044,
+    "field": "Customer Details",
+    "message": "Numeric characters are not accepted. Please provide a valid &1.",
+    "class": "ZCSS_WEBREQ_BMD",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 19,
+    "apiCode": 1045,
+    "field": "Home Phone",
+    "message": "Please provide valid Home phone number (starting with the area code).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 19,
+    "apiCode": 1046,
+    "field": "Site Address",
+    "message": "This site is part of an embedded network. AGL cannot provide service.",
+    "class": "ZCSS_WEBREQ_TMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 20,
+    "apiCode": 1047,
+    "field": "",
+    "message": "Phone number needs to have a length of 10 or 11 digits.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 21,
+    "apiCode": 1048,
+    "field": "Work Phone",
+    "message": "Please provide valid Work phone number (starting with the area code).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 22,
+    "apiCode": 1049,
+    "field": "Mobile Phone",
+    "message": "Please provide valid Mobile phone number between 10 and 11 digits.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 23,
+    "apiCode": 1050,
+    "field": "Driver's License",
+    "message": "Please provide valid Driver's License number. License Number must be between 4 and 9 characters.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 24,
+    "apiCode": 1051,
+    "field": "Medicare Number",
+    "message": "Please provide valid Medicare number including your individual reference number.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 25,
+    "apiCode": 1052,
+    "field": "ABN",
+    "message": "Please provide valid ABN.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 26,
+    "apiCode": 1053,
+    "field": "ACN",
+    "message": "Please provide valid ACN.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 27,
+    "apiCode": 1054,
+    "field": "Concession Card",
+    "message": "Please provide valid Concession Card (Number/Type).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 27,
+    "apiCode": 1055,
+    "field": "NMI/MIRN",
+    "message": "Please provide a valid NMI/MIRN including checksum. Must be 11 digits.",
+    "class": "ZCSS_WEBREQ_TMD",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 29,
+    "apiCode": 1056,
+    "field": "Product ID",
+    "message": "Please provide valid &2 Product ID.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 31,
+    "apiCode": 1057,
+    "field": "",
+    "message": "Product ID &2 does not match the billing class of &1 provided. Please select appropriate Residential/Business product for meter type.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 32,
+    "apiCode": 1058,
+    "field": "",
+    "message": "Site could not be identified. Please provide NMI/MIRN.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 33,
+    "apiCode": 1059,
+    "field": "Site Address",
+    "message": "Please provide the Street, Suburb and State details.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 35,
+    "apiCode": 1060,
+    "field": "",
+    "message": "Sorry, AGL does not currently supply &1 to the area requested.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 36,
+    "apiCode": 1061,
+    "field": "Identification Document",
+    "message": "Please provide your identification type. i.e. Driver Licence or Medicare or Passport.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 37,
+    "apiCode": 1062,
+    "field": "Transaction Type",
+    "message": "Please select one of the following  values for Transaction Type - Sale, Cancel, Change, SDFI, Moveout.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 39,
+    "apiCode": 1063,
+    "field": "",
+    "message": "Please provide a value for &1 field.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 41,
+    "apiCode": 1064,
+    "field": "Vendor Business Partner Number",
+    "message": "Sorry, could not identify customer uniquely. Please review personal, identification details and resubmit.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 43,
+    "apiCode": 1065,
+    "field": "NMI/MIRN",
+    "message": "Please provide a valid NMI/MIRN including checksum.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 44,
+    "apiCode": 1066,
+    "field": "",
+    "message": "Site could not be identified. Please provide NMI/MIRN.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 45,
+    "apiCode": 1067,
+    "field": "Email Address",
+    "message": "Please provide a current Email address.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 46,
+    "apiCode": 1068,
+    "field": "Mobile Phone",
+    "message": "Please provide valid Mobile phone number.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 47,
+    "apiCode": 1069,
+    "field": "Product ID",
+    "message": "Please select valid Product ID and Retailer combination.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 48,
+    "apiCode": 1070,
+    "field": "",
+    "message": "Duplicate Sale exists, please contact AGL.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 49,
+    "apiCode": 1071,
+    "field": "Date of Birth",
+    "message": "Please provide a Date of Birth (YYYY-MM-DD). You must be over 18 years of age.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 50,
+    "apiCode": 1072,
+    "field": "Flybuys Details",
+    "message": "Please provide Flybuys consent or remove Flybuys number (Number must start with 60089 and be 16 digits).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 51,
+    "apiCode": 1073,
+    "field": "Life Support",
+    "message": "Please select one of the following values for Life Support Site - 'Electricity', 'Gas', 'Dual' for dual fuel, 'No' for no life support.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 52,
+    "apiCode": 1074,
+    "field": "Transaction Type",
+    "message": "Please select one of the following values for Transaction Type - Sale, Cancel, Change, SDFI, Moveout.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 53,
+    "apiCode": 1075,
+    "field": "Offer Type",
+    "message": "Please provide one of the following values for Offer Type - AcquisitionDualFuel, AcquisitionElectricity, AcquisitionGas, CrossSellElectricity, CrossSellGas, RetentionDualFuel, RetentionElectricity, RetentionGas.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 54,
+    "apiCode": 1076,
+    "field": "Driver's License",
+    "message": "Please provide valid value for Authorised Person's Driver's License number. License Number must be between 4 and 9 characters.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 55,
+    "apiCode": 1077,
+    "field": "Medicare Number",
+    "message": "Please provide authorised person's valid Medicare number.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 57,
+    "apiCode": 1078,
+    "field": "Transaction Type",
+    "message": "Please select one of the following values for Transaction Type - Sale, Cancel, Change, SDFI, Moveout",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 58,
+    "apiCode": 1079,
+    "field": "",
+    "message": "Sale related to current request not found. Please contact AGL to finalise transaction.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 59,
+    "apiCode": 1080,
+    "field": "Cancel Type",
+    "message": "Fuel mismatch found. Please provide valid fuel type for cancellation request.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 61,
+    "apiCode": 1081,
+    "field": "Product ID",
+    "message": "The &1 Product Code is invalid. Please contact the administrator.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 63,
+    "apiCode": 1082,
+    "field": "Cancel Reason",
+    "message": "Please select a valid Cancellation Reason.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 64,
+    "apiCode": 1083,
+    "field": "",
+    "message": "Move out has already occurred at this site, no action required",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 65,
+    "apiCode": 1084,
+    "field": "Cancellation Reason",
+    "message": "Please select a valid Cancellation Reason.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 67,
+    "apiCode": 1085,
+    "field": "",
+    "message": "Please provide valid NMI/MIRN for &1",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 68,
+    "apiCode": 1086,
+    "field": "Campaign ID",
+    "message": "Sorry, the &1 Campaign ID is not valid. Contact the administrator.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 70,
+    "apiCode": 1087,
+    "field": "",
+    "message": "This customer has exceeded the amount of allowable product change requests for &1.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 71,
+    "apiCode": 1088,
+    "field": "",
+    "message": "This customer has exceeded the amount of allowable product change requests for &1.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 72,
+    "apiCode": 1089,
+    "field": "Title",
+    "message": "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 73,
+    "apiCode": 1090,
+    "field": "",
+    "message": "Please submit Cancellation request with the original Lead ID.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 74,
+    "apiCode": 1091,
+    "field": "Product ID",
+    "message": "Customer already on selected product.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 75,
+    "apiCode": 1092,
+    "field": "NMI/MIRN",
+    "message": "Please provide valid &1 for &2.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 78,
+    "apiCode": 1093,
+    "field": "",
+    "message": "Please submit product change request on or after move in date.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 79,
+    "apiCode": 1094,
+    "field": "",
+    "message": "Sorry, we cannot create this product swap for &1 due to a creation conflict. Please contact the administrator.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 80,
+    "apiCode": 1095,
+    "field": "Street Address",
+    "message": "Please provide a valid street address.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 81,
+    "apiCode": 1096,
+    "field": "",
+    "message": "Please select electricity as the transaction type to process a same day connection.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 82,
+    "apiCode": 1097,
+    "field": "",
+    "message": "Please select move in date as today or next business day for same day connection.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 83,
+    "apiCode": 1098,
+    "field": "",
+    "message": "Move In date in future. Please re-submit the request as a normal sale and not a same day connection.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 84,
+    "apiCode": 1099,
+    "field": "State",
+    "message": "Sorry, AGL does not currently supply &1 to the area requested.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 85,
+    "apiCode": 1100,
+    "field": "",
+    "message": "Sorry, &2 is unable to supply &1, please review your order.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 86,
+    "apiCode": 1101,
+    "field": "",
+    "message": "Sorry, only authorised persons on the &1 account can finalise this transaction.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 89,
+    "apiCode": 1102,
+    "field": "",
+    "message": "Please provide only Y or N value for consent field &1.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 90,
+    "apiCode": 1103,
+    "field": "",
+    "message": "Please provide a move out date for &1 in format YYYY-MM-DD.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": true
+  },
+  {
+    "code": 91,
+    "apiCode": 1104,
+    "field": "",
+    "message": "Please provide Flybuys consent or remove Flybuys number (Number must start with 60089 and be 16 digits).",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 92,
+    "apiCode": 1105,
+    "field": "",
+    "message": "Please provide Change Request comment.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 93,
+    "apiCode": 1106,
+    "field": "",
+    "message": "Please provide valid Cancellation Type - Electricity, Gas, Dual.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 94,
+    "apiCode": 1107,
+    "field": "",
+    "message": "Please resubmit this order as a SDFI request and not SALE.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 95,
+    "apiCode": 1108,
+    "field": "",
+    "message": "Please provide valid Flybuys Number starting with 60089 and be 16 digits.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 96,
+    "apiCode": 1109,
+    "field": "",
+    "message": "Flex Price only allowed for VIC residential electricity request.",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 97,
+    "apiCode": 1110,
+    "field": "Concession Card",
+    "message": "AGL cannot accept Concession Cards for SA. Please remove details and provide Concession directly to DHS",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 122,
+    "apiCode": 1111,
+    "field": "Moveout date",
+    "message": "Move out date cannot be in the past",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 128,
+    "apiCode": 1112,
+    "field": "SDI ",
+    "message": "SDFI cannot be raised for weekend or public holiday connection",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 129,
+    "apiCode": 1113,
+    "field": "",
+    "message": "Please provide valid code for Carbon Neutral",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 130,
+    "apiCode": 1114,
+    "field": "",
+    "message": "Please provide a valid code for Carbon Neutral that matches the requested fuel type",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 131,
+    "apiCode": 1115,
+    "field": "",
+    "message": "Please provide a valid code for Carbon Neutral that matches the Product Resi/Busi type",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 139,
+    "apiCode": 3003,
+    "field": "",
+    "message": "The contract does not exist in our billing system",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 140,
+    "apiCode": 3002,
+    "field": "",
+    "message": "The contract is already cancelled, no action required",
+    "class": "ZCSS_WEBREQ_VALIDATE",
+    "isParamReplaceRequired": false
+  },
+  {
+    "code": 2000,
+    "apiCode": 2000,
+    "field": "Backend Exception",
+    "message": "An error occurred while communicating to backend system.",
+    "class": "SAP_EXCEPTION",
+    "isParamReplaceRequired": false
+  }
+]

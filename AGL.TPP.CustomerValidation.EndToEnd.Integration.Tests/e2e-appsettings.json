@@ -1,0 +1,46 @@
+{
+  "ApiDescription": "This API caters to Partner Customer validation for Sales Order.",
+  "ApiVersion": "v1",
+  "OcpApimSubscriptionKey": "cf18c2c934c94b28a93db61215a2cb79",
+  "StatusClientKey": "5385C1270A2F4E36AA90B241140B62B5",
+  "CustomerValidationBaseUrl": "https://qtruat-api.platform.agl.com.au/partners/sales/customervalidation/",
+  "AzureCloudSettings": {
+    "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=customervalidationapi-tpp-syd-qtruat-rg-01;AccountKey=kAgcUsv2cFgeNs2WVDrm6nrlBwa2vAd4ksbErB1YvLYl6pnjhW2veqzycRK+hsoTfVY4R5SjQZUM6x2PMpXDSw==;EndpointSuffix=core.windows.net"
+  },
+
+  "AppConfiguration": {
+    "ApplicationIdentifier": "AGL.TPP.CustomerValidationAPI",
+    "Environment": "Local",
+    "NameIdentifierNamespace": "http://agl.com.au/named_id"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogOutputTemplate": "{Timestamp:yyyy-MM-dd HH:mm:ss,fff} [ThreadId:{ThreadId}] {Level} [CorrelationId:{CorrelationId}] [Machine:{MachineName}] {CallerType}:{MemberName} {Message}{NewLine}{Exception}",
+    "LogLevel": "Debug",
+    "Trace": {
+      "Enabled": true,
+      "LogLevel": "Debug"
+    },
+    "Splunk": {
+      "Enabled": true,
+      "LogLevel": "Debug",
+      "Token": "",
+      "Host": ""
+    }
+  },
+  "Auth": {
+    "Issuer": "https://secure-qtrtest.digital.agl.com.au/",
+    "Audiences": "https://api.platform.agl.com.au/;https://agl-qtrtest.au.auth0.com/userinfo"
+  },
+  "SapPiSettings": {
+    "Host": "azsaw0265.agl.int",
+    "Port": "50000",
+    "CustomerValidationEndpoint": "/RESTAdapter/v1/",
+    "UserId": "user",
+    "Password": "pwd"
+  },
+  "EventHubSettings": {
+    "Name": "tppeventhub",
+    "ConnectionString": "Endpoint=sb://tppeventhubns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=1IoWg/9pemROhzE+BgigNctcCVaB51uyoNc5IJLogds="
+  }
+}

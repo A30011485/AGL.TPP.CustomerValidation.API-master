@@ -1,0 +1,85 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0100000031",
+    "vendorName": "FC",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Sale",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel",
+    "dateOfSale": "2019-07-11"
+  },
+  "payload": {
+    "personDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middleman",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "contactDetail": {
+      "emailAddress": "",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "0200111000"
+    },
+    "siteAddress": {
+      "buildingName": "",
+      "floorNumber": "",
+      "lotNumber": "",
+      "unitNumber": "3",
+      "streetNumber": "1",
+      "streetName": "Mackay",
+      "streetType": "Avenue",
+      "suburb": "Glen Huntly",
+      "state": "VIC",
+      "postcode": "3163",
+      "deliveryPointIdentifier": "87654321"
+    },
+    "mailingAddress": {
+      "type": "Street",
+      "postBoxAddress": {
+        "suburb": "Sampleville",
+        "state": "VIC",
+        "postcode": "3000",
+        "postOfficeBoxType": "POBox",
+        "postOfficeBoxNumber": "PO Box 706"
+      },
+      "streetAddress": {
+        "buildingName": "",
+        "floorNumber": "",
+        "lotNumber": "",
+        "unitNumber": "3",
+        "streetNumber": "1",
+        "streetName": "Mackay",
+        "streetType": "Avenue",
+        "suburb": "Glen Huntly",
+        "state": "VIC",
+        "postcode": "3163",
+        "deliveryPointIdentifier": "87654321"
+      }
+    },
+    "identification": {
+      "driversLicense": {
+        "licenseNumber": "012345678",
+        "issuerState": "ACT"
+      },
+      "medicare": {
+        "medicareNumber": "",
+        "individualReferenceNumber": ""
+      },
+      "passport": {
+        "passportNumber": ""
+      }
+    },
+    "customerConsent": {
+      "hasGivenCreditCheckConsent": "Y",
+      "hasGivenEBillingConsent": "N"
+    },
+    "cancellationDetail": {
+      "dateOfCancellation": "2019-02-02",
+      "type": "Electricity",
+      "reason": "Moving out"
+    }
+  }
+}

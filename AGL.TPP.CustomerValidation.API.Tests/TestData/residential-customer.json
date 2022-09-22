@@ -1,0 +1,91 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0124477335",
+    "vendorName": "ISE",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Sale",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel",
+    "dateOfSale": "2019-08-21"
+  },
+  "payload": {
+    "personDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middle",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "contactDetail": {
+      "emailAddress": "sam.sample@example.com",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "1400111000"
+    },
+    "identification": {
+      "driversLicense": {
+        "licenseNumber": "012345678"
+      },
+      "medicare": {
+        "medicareNumber": "",
+        "individualReferenceNumber": ""
+      },
+      "passport": {
+        "passportNumber": "string"
+      }
+    },
+    "concessionCardDetail": {
+      "cardType": "Pensioner",
+      "cardNumber": "305319799S",
+      "dateOfExpiry": "2019-01-01"
+    },
+    "siteAddress": {
+      "buildingName": "",
+      "floorNumber": "",
+      "lotNumber": "",
+      "unitNumber": "",
+      "streetNumber": "154",
+      "streetName": "Tennyson Street",
+      "suburb": "Elwood",
+      "state": "vic",
+      "postcode": "3184"
+    },
+    "mailingAddress": {
+      "streetAddress": {
+        "buildingName": "string",
+        "floorNumber": "4",
+        "lotNumber": "string",
+        "unitNumber": "12",
+        "streetNumber": "105",
+        "streetName": "Collins St",
+        "suburb": "Sampleville",
+        "state": "NSW",
+        "postcode": "3000",
+        "postOfficeBoxNumber": "10"
+      }
+    },
+    "siteMeterDetail": {
+      "electricity": {
+        "nmi": ""
+      },
+      "gas": {
+        "mirn": ""
+      }
+    },
+    "moveDetail": {
+      "moveIn": {
+        "electricity": {
+          "date": "2019-08-21"
+        },
+        "gas": {
+          "date": "2019-08-21"
+        }
+      }
+    },
+    "customerConsent": {
+      "hasGivenCreditCheckConsent": "Y",
+      "hasGivenEBillingConsent": "N"
+    }
+  }
+}

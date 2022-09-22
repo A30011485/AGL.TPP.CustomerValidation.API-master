@@ -1,0 +1,94 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0100000031",
+    "vendorName": "FC",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Change",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel",
+    "dateOfSale": "2019-07-11"
+  },
+  "payload": {
+    "personDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middle",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "contactDetail": {
+      "emailAddress": "sam.sample@example.com",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "0300111000"
+    },
+    "identification": {
+      "driversLicense": {
+        "licenseNumber": "012345678"
+      },
+      "medicare": {
+        "medicareNumber": "0123456789",
+        "individualReferenceNumber": "1"
+      },
+      "passport": {
+        "passportNumber": "string"
+      }
+    },
+    "siteAddress": {
+      "buildingName": "string",
+      "floorNumber": "4",
+      "lotNumber": "string",
+      "unitNumber": "12",
+      "streetNumber": "105",
+      "streetName": "Collins St",
+      "suburb": "Sampleville",
+      "state": "NSW",
+      "postcode": "3000"
+    },
+    "mailingAddress": {
+      "streetAddress": {
+        "buildingName": "string",
+        "floorNumber": "4",
+        "lotNumber": "string",
+        "unitNumber": "12",
+        "streetNumber": "105",
+        "streetName": "Collins St",
+        "suburb": "Sampleville",
+        "state": "NSW",
+        "postcode": "3000",
+        "postOfficeBoxNumber": "PO BOX 10, GPO BOX 10, LOCKED BAG 10"
+      }
+    },
+    "siteAdditionalDetail": {
+      "changeRequestDate": "2019-09-12",
+      "comments": "string"
+    },
+    "siteMeterDetail": {
+      "electricity": {
+        "nmi": "01234567891"
+      },
+      "gas": {
+        "mirn": "01234567891"
+      }
+    },
+    "moveDetail": {
+      "moveIn": {
+        "electricity": {
+          "date": "2019-09-12"
+        },
+        "gas": {
+          "date": "2019-09-12"
+        }
+      },
+      "moveOut": {
+        "electricity": {
+          "date": "2019-09-12"
+        },
+        "gas": {
+          "date": "2019-09-12"
+        }
+      }
+    }
+  }
+}

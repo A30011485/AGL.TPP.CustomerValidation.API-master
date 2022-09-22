@@ -1,0 +1,77 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0123456789",
+    "vendorName": "BCC",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Sale",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel"
+  },
+  "payload": {
+    "businessDetail": {
+      "name": "string"
+    },
+    "authorisedContactPersonDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middle",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "authorisedPersonContact": {
+      "emailAddress": "sam.sample@example.com",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "1400111000"
+    },
+    "siteAddress": {
+      "buildingName": "string",
+      "floorNumber": "4",
+      "lotNumber": "string",
+      "unitNumber": "12",
+      "streetNumber": "105",
+      "streetName": "Collins St",
+      "suburb": "Sampleville",
+      "state": "NSW",
+      "postcode": "3000"
+    },
+    "mailingAddress": {
+      "streetAddress": {
+        "buildingName": "string",
+        "floorNumber": "4",
+        "lotNumber": "string",
+        "unitNumber": "12",
+        "streetNumber": "105",
+        "streetName": "Collins St",
+        "suburb": "Sampleville",
+        "state": "NSW",
+        "postcode": "3000",
+        "postOfficeBoxNumber": "10"
+      }
+    },
+    "businessIdentification": {
+      "abn": "01234567891",
+      "acn": "123456789"
+    },
+    "authorisedPersonIdentification": {
+      "driversLicense": {
+        "licenseNumber": "012345678"
+      }
+    },
+    "siteMeterDetail": {
+      "electricity": {
+        "nmi": ""
+      },
+      "gas": {
+        "mirn": ""
+      }
+    },
+    "cancellationDetail": {
+      "dateOfCancellation": "2019-08-16",
+      "type": "Electricity",
+      "reason": "Other",
+      "reasonOther": "string"
+    }
+  }
+}

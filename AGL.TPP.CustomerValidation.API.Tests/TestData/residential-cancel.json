@@ -1,0 +1,81 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0123456789",
+    "vendorName": "BCC",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Cancel",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel"
+  },
+  "payload": {
+    "personDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middle",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "contactDetail": {
+      "emailAddress": "sam.sample@example.com",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "1400111000"
+    },
+    "identification": {
+      "driversLicense": {
+        "licenseNumber": "012345678"
+      },
+      "medicare": {
+        "medicareNumber": "0123456789",
+        "individualReferenceNumber": "1"
+      },
+      "passport": {
+        "passportNumber": "string"
+      }
+    },
+    "siteAddress": {
+      "buildingName": "string",
+      "floorNumber": "4",
+      "lotNumber": "string",
+      "unitNumber": "12",
+      "streetNumber": "105",
+      "streetName": "Collins St",
+      "suburb": "Sampleville",
+      "state": "NSW",
+      "postcode": "3000"
+    },
+    "mailingAddress": {
+      "streetAddress": {
+        "buildingName": "string",
+        "floorNumber": "4",
+        "lotNumber": "string",
+        "unitNumber": "12",
+        "streetNumber": "105",
+        "streetName": "Collins St",
+        "suburb": "Sampleville",
+        "state": "NSW",
+        "postcode": "3000",
+        "postOfficeBoxNumber": "10"
+      }
+    },
+    "siteMeterDetail": {
+      "electricity": {
+        "nmi": "01234567891"
+      },
+      "gas": {
+        "mirn": "01234567891"
+      }
+    },
+    "customerConsent": {
+      "hasGivenCreditCheckConsent": "Y",
+      "hasGivenEBillingConsent": "N"
+    },
+    "cancellationDetail": {
+      "dateOfCancellation": "2019-08-28",
+      "type": "Electricity",
+      "reason": "OutsideCoolOffPeriod",
+      "reasonOther": "string"
+    }
+  }
+}

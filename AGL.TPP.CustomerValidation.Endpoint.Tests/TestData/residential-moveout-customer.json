@@ -1,0 +1,94 @@
+{
+  "header": {
+    "vendorBusinessPartnerNumber": "0100000031",
+    "vendorName": "FC",
+    "channel": "TeleMarketer",
+    "retailer": "AGL",
+    "transactionType": "Sale",
+    "vendorLeadId": "0123456789",
+    "offerType": "AcquisitionDualFuel",
+    "dateOfSale": "2019-07-11"
+  },
+  "payload": {
+    "personDetail": {
+      "title": "Mr",
+      "firstName": "john",
+      "middleName": "middleman",
+      "lastName": "doe",
+      "dateOfBirth": "1985-03-22"
+    },
+    "contactDetail": {
+      "emailAddress": "",
+      "mobilePhone": "0400111000",
+      "homePhone": "0200111000",
+      "workPhone": "0200111000"
+    },
+    "siteAddress": {
+      "buildingName": "",
+      "floorNumber": "",
+      "lotNumber": "",
+      "unitNumber": "3",
+      "streetNumber": "9",
+      "streetName": "Merton",
+      "suburb": "Camberwell",
+      "state": "VIC",
+      "postcode": "3163"
+    },
+    "mailingAddress": {
+      "streetAddress": {
+        "buildingName": "",
+        "floorNumber": "",
+        "lotNumber": "",
+        "unitNumber": "3",
+        "streetNumber": "9",
+        "streetName": "Merton",
+        "suburb": "Camberwell",
+        "state": "VIC",
+        "postcode": "3163"
+      }
+    },
+    "identification": {
+      "driversLicense": {
+        "licenseNumber": "012345678"
+      },
+      "medicare": {
+        "medicareNumber": "",
+        "individualReferenceNumber": ""
+      },
+      "passport": {
+        "passportNumber": ""
+      }
+    },
+    "concessionCardDetails": {
+      "cardType": "CentrelinkHealthcare",
+      "cardNumber": "string",
+      "dateOfExpiry": "2019-01-01"
+    },
+    "siteMeterDetail": {
+      "electricity": {
+        "nmi": "string"
+      },
+      "gas": {
+        "mirn": "string"
+      }
+    },
+    "moveDetail": {
+      "moveIn": {
+        "electricity": {
+          "date": "2019-08-23"
+        },
+        "gas": {
+          "date": "2019-08-23"
+        }
+      },
+      "moveOut": {
+        "electricity": {
+          "date": "2019-08-23"
+        },
+        "gas": {
+          "date": "2019-08-23"
+        }
+      }
+    }
+  }
+}
