@@ -15,6 +15,7 @@ namespace AGL.TPP.CustomerValidation.API.Tests.Helper
         [InlineData("Mrs", "Mrs")]
         [InlineData("Miss", "Miss")]
         [InlineData("Dr", "Dr")]
+        [InlineData("Mx", "Mx")]
         public void TitleShouldMappedToExpected(string actualTitle, string expectedTitle)
         {
             FieldMapper.MapPersonDetailTitle(actualTitle).Should().BeEquivalentTo(expectedTitle);
@@ -28,6 +29,7 @@ namespace AGL.TPP.CustomerValidation.API.Tests.Helper
         [InlineData("Mrs", "Mrs")]
         [InlineData("Miss", "Miss")]
         [InlineData("Dr", "Dr")]
+        [InlineData("Mx", "Mx")]
         public void ResidentialSaleCustomerTitleShouldMappedToExpected(string actualTitle, string expectedTitle)
         {
             ResidentialCustomerSalesValidationBodyModel model = new ResidentialCustomerSalesValidationBodyModel
@@ -47,6 +49,7 @@ namespace AGL.TPP.CustomerValidation.API.Tests.Helper
         [InlineData("Mrs", "Mrs")]
         [InlineData("Miss", "Miss")]
         [InlineData("Dr", "Dr")]
+        [InlineData("Mx", "Mx")]
         public void ResidentialCancelCustomerTitleShouldMappedToExpected(string actualTitle, string expectedTitle)
         {
             CancellationResidentialCustomerValidationBodyModel model = new CancellationResidentialCustomerValidationBodyModel
@@ -66,6 +69,7 @@ namespace AGL.TPP.CustomerValidation.API.Tests.Helper
         [InlineData("Mrs", "Mrs")]
         [InlineData("Miss", "Miss")]
         [InlineData("Dr", "Dr")]
+        [InlineData("Mx", "Mx")]
         public void ResidentialMoveoutCustomerTitleShouldMappedToExpected(string actualTitle, string expectedTitle)
         {
             ResidentialCustomerMoveOutValidationBodyModel model = new ResidentialCustomerMoveOutValidationBodyModel
@@ -86,6 +90,7 @@ namespace AGL.TPP.CustomerValidation.API.Tests.Helper
         [InlineData("Mrs", "Mrs")]
         [InlineData("Miss", "Miss")]
         [InlineData("Dr", "Dr")]
+        [InlineData("Mx", "Mx")]
         public void ResidentialChangeCustomerTitleShouldMappedToExpected(string actualTitle, string expectedTitle)
         {
             ResidentialCustomerChangeValidationBodyModel model = new ResidentialCustomerChangeValidationBodyModel

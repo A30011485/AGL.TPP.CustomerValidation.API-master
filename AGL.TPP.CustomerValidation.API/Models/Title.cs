@@ -10,6 +10,7 @@ namespace AGL.TPP.CustomerValidation.API.Models
         Mrs,
         Ms, 
         Miss,
-        Dr
+        Dr,
+        Mx
     }
 }

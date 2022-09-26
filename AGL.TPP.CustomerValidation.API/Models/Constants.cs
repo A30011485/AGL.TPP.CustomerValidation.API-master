@@ -97,8 +97,8 @@
       public static readonly ApiError CustomerDetailsBlank = new ApiError { Code = "2020", Message = "Please provide value for Customer Details." };
       public static readonly ApiError CancellationDetailsBlank = new ApiError { Code = "2021", Message = "Please provide value for Cancellation Details." };
 
-      public static readonly ApiError TitleBlank = new ApiError { Code = "2022", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr." };
-      public static readonly ApiError TitleInvalid = new ApiError { Code = "2023", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr." };
+      public static readonly ApiError TitleBlank = new ApiError { Code = "2022", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr,Mx." };
+      public static readonly ApiError TitleInvalid = new ApiError { Code = "2023", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr,Mx." };
       public static readonly ApiError FirstNameBlank = new ApiError { Code = "2024", Message = "Please provide a First Name." };
       public static readonly ApiError FirstNameInvalid = new ApiError { Code = "2025", Message = "First Name accepts only alpha characters." };
       public static readonly ApiError FirstNameLength = new ApiError { Code = "2026", Message = "Character length exceeded. 'First Name' must be between 1 and 60 characters." };
@@ -111,8 +111,8 @@
       public static readonly ApiError DateOfBirthInvalid = new ApiError { Code = "2033", Message = "Please provide a Date of Birth (YYYY-MM-DD). You must be over 18 years of age." };
       public static readonly ApiError DateOfBirthAge = new ApiError { Code = "2034", Message = "Please provide a Date of Birth (YYYY-MM-DD). You must be over 18 years of age." };
 
-      public static readonly ApiError AuthorisedPersonTitleBlank = new ApiError { Code = "2035", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr." };
-      public static readonly ApiError AuthorisedPersonTitleInvalid = new ApiError { Code = "2036", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr." };
+      public static readonly ApiError AuthorisedPersonTitleBlank = new ApiError { Code = "2035", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr,Mx" };
+      public static readonly ApiError AuthorisedPersonTitleInvalid = new ApiError { Code = "2036", Message = "Please select one of the following values for Title - Mr, Mrs, Ms, Miss, Dr,Mx" };
       public static readonly ApiError AuthorisedPersonFirstNameBlank = new ApiError { Code = "2037", Message = "Please provide Authorised Person's First Name." };
       public static readonly ApiError AuthorisedPersonFirstNameInvalid = new ApiError { Code = "2038", Message = "Authorised Person's First Name must be alpha characters." };
       public static readonly ApiError AuthorisedPersonFirstNameLength = new ApiError { Code = "2039", Message = "Character length exceeded. 'Authorised Person's First Name' must be between 1 and 60 characters." };
